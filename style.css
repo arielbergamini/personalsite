@@ -1,0 +1,69 @@
+/*--Global variables--*/
+:root {
+    --color-text: #33ff33;      /* body text */
+    --color-bg: #000000;        /* background */
+    --color-primary: #147914;   /* headers */
+    --color-accent: #ff33ff;    /* links */
+
+    --font-title: 'Silkscreen', sans-serif;
+    --font-body: 'Space Mono', monospace;
+}
+
+body {
+    font-family: var(--font-body) !important;
+    color: var(--color-text) !important;
+    background-color: var(--color-background) !important;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title) !important;
+    color: var(--color-primary) !important;
+}
+
+a {
+    color: var(--color-accent) !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primary) !important;
+}
+/*--Imported fonts--*/
+
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}

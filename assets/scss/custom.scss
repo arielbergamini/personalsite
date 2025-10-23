@@ -1,0 +1,38 @@
+//Overriding bootstrap
+$body-font-family: 'Space Mono', monospace;
+$body-bg: #000000;
+$headings-font-family: 'Silkscreen', sans-serif;
+$primary: #33ff33;
+$header-color: #147914;
+$link-color: #ff33ff;
+
+//import bootstrap and ensure my overrides win
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" with (
+    $body-bg: $body-bg,
+    $headings-font-family: $headings-font-family,
+    $primary: $primary,
+    $link-color: $link-color
+);
+
+//Import my fonts
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: $body-font-family;
+    color: $primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headings-font-family;
+    color: $header-color;
+}
+
+a {
+    color: $link-color;
+}
+
+a:hover {
+    color: $primary;
+}

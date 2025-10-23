@@ -4,6 +4,13 @@
 /tmp
 /out-tsc
 
+#compiled css
+assets/css/style.css
+assets/css/style.css.map
+
+#ignore compiled bootstrap since installed using npm
+assets/css/bootstrap.min.css
+
 # Runtime data
 pids
 *.pid

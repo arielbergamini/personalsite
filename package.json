@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "startbootstrap-creative": "^7.0.7"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
   }
 }

@@ -6,7 +6,7 @@ frontend:
                 - npm install -g sass
         build:
             commands:
-                - sass assets/scss/style.scss assets/css/style.css
+                - sass assets/scss/custom.scss assets/css/custom.css
     artifacts:
         baseDirectory: /
         files:

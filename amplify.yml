@@ -8,7 +8,7 @@ frontend:
             commands:
                 []
     artifacts:
-        baseDirectory: personalsite
+        baseDirectory: /
         files:
             - '**/*'
     cache:

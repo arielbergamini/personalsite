@@ -3,6 +3,7 @@ frontend:
     phases:
         preBuild:
             commands:
+                - npm install bootstrap
                 - npm install -g sass
         build:
             commands:
@@ -13,4 +14,4 @@ frontend:
             - '**/*'
     cache:
         paths:
-            - []
+            - node_modules/**/*

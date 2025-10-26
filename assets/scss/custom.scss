@@ -3,7 +3,7 @@ $body-font-family: 'Space Mono', monospace;
 $body-bg: #000000;
 $headings-font-family: 'Silkscreen', sans-serif;
 $primary: #33ff33;
-$header-color: #147914;
+$header-color: #ff33ff;
 $link-color: #ff33ff;
 
 //import bootstrap and ensure my overrides win
@@ -22,6 +22,7 @@ $link-color: #ff33ff;
 body {
     font-family: $body-font-family;
     color: $primary;
+    padding: 70px;
 }
 
 h1, h2, h3, h4, h5, h6 {

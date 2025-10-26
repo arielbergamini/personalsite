@@ -23,7 +23,6 @@ body {
     font-family: $body-font-family;
     color: $primary;
     padding: 45px;
-    padding-bottom: 200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,4 +50,8 @@ a:hover {
     width: 200px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.page-content {
+    padding-bottom: 200px;
 }

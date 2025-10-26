@@ -22,12 +22,16 @@ $link-color: #ff33ff;
 body {
     font-family: $body-font-family;
     color: $primary;
-    padding: 45px, 75px;
+    padding: 45px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $headings-font-family;
     color: $header-color;
+}
+
+p {
+    padding-right: 75px;
 }
 
 a {
